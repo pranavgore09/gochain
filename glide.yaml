@@ -1,0 +1,9 @@
+package: github.com/gochain
+import:
+- package: github.com/kataras/iris
+  version: v10.0.2
+  subpackages:
+  - middleware/logger
+  - middleware/recover
+- package: github.com/satori/go.uuid
+  version: v1.2.0
